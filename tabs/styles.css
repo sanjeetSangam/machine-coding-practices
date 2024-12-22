@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    outline: none;
+    border: none;
+
+}
+
+.tabContent {
+    display: none;
+}
+
+.tabLinks {
+    background-color: blueviolet;
+    padding: 10px 20px;
+    margin: 10px;
+    margin-left: -10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.2s;
+}
+
+.tabLinks:hover {
+    background-color: rgb(166, 85, 241);
+}
+
+.tabLinks.active {
+    border-bottom: 2px solid blue;
+}
+
+.tabContent.active {
+    display: block;
+}
